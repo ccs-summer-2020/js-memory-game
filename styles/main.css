@@ -1,0 +1,48 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+
+  display: grid;
+  transition: all 0.5s ease-in-out;
+}
+
+.card.selected {
+  pointer-events: none;
+}
+
+.card div:first-child, .card div:last-child {
+  position: relative;
+  padding: 20px;
+
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.card div:first-child {
+  opacity: 0;
+}
+
+.card h2 {
+  color: black;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.card.selected div:first-child {
+  opacity: 1;
+}
+
+.card.selected div:last-child {
+  opacity: 0;
+}
+
+.matched {
+  opacity: 0;
+}
