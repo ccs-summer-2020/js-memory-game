@@ -9,37 +9,37 @@
     {
       id: 2,
       text: 'horse',
-      img: './images/cow.png'
+      img: './images/horse.png'
     },
     {
       id: 3,
       text: 'pig',
-      img: './images/cow.png'
+      img: './images/pig.png'
     },
     {
       id: 4,
       text: 'dog',
-      img: './images/cow.png'
+      img: './images/dog.png'
     },
     {
       id: 5,
       text: 'cat',
-      img: './images/cow.png'
+      img: './images/cat.png'
     },
     {
       id: 6,
-      text: 'turkey',
-      img: './images/cow.png'
+      text: 'giraffe',
+      img: './images/giraffe.png'
     },
     {
       id: 7,
       text: 'rooster',
-      img: './images/cow.png'
+      img: './images/rooster.png'
     },
     {
       id: 8,
       text: 'donkey',
-      img: './images/cow.png'
+      img: './images/donkey.png'
     },
   ];
 
