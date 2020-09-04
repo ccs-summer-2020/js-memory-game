@@ -65,7 +65,7 @@
 
   const cardPairs = [...cards, ...cards];
 
-  // more robust way to shuffle
+  // shuffle the cards
   // for loop; i is equal to length of array - 1, run the loop as long as i is greater than 0; decrease the value of i by 1 each time you run the loop
   // Math.floor rounds a number down
   // Math.random returns a random number between 0 and less than 1
@@ -79,9 +79,9 @@
     cardPairs[j] = temp;
   }
 
-  cardPairs.sort(function(a, b) {
-    return (0.5 - Math.random());
-  });
+//   cardPairs.sort(function(a, b) {
+//     return (0.5 - Math.random());
+//   });
 
   let cardsHTML = '';
   cardPairs.forEach(function(card) {
